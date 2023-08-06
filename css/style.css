@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  /* background-image: url("../img/realestate.jpg");
+  background-size: cover;
+  background-position: center; */
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo {
+  color: black;
+  font-size: 40px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+button {
+  text-decoration: none;
+  border: none;
+  background: rgb(221, 255, 0);
+  padding: 12px 50px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.overlay {
+  background-image: url("../img/realestate.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  font-family: "Caprasimo", cursive;
+  width: 90%;
+  height: 100%;
+  font-size: 25px;
+  flex-direction: column;
+  padding-bottom: 30%;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.overlay h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 50px;
+  align-items: center;
+}
+.overlay p {
+  margin-top: 10px;
+  max-width: 120vh;
+  font-size: 18px;
+}
+.overlay button {
+  margin-top: 10px;
+  padding: 1.5rem 2rem;
+  border-radius: 40px;
+  font-size: 20px;
+}
+.content {
+  width: 80%;
+  min-height: 30vh;
+  background-color: rgba(255, 255, 255, 0.959);
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+
+  padding: 30px;
+  border-radius: 12px;
+}
+.list {
+  flex-direction: row;
+  display: flex;
+  gap: 60px;
+}
+.content .card {
+  width: 40vh;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(105, 105, 105, 0.875);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border-radius: 15px;
+  list-style: none;
+}
+.content .card h1 {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.content .right-img {
+  width: 20%;
+  min-height: 300px;
+}
+.content .right-img img {
+  width: 60vh;
+  min-height: 50vh;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+.right-img {
+  width: 50%;
+  min-height: 300px;
+}
+.content .list h1 {
+  display: flex;
+  justify-content: space-between;
+}
+.content .list h1 i {
+  color: red;
+  gap: 4px;
+}
+.content .list p {
+  flex-direction: column;
+  font-size: 20px;
+  color: darkgrey;
+}
+.content .list .list1 {
+  margin-right: 10px;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .content h3 span {
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.container .content h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+.container .content h1 span {
+  color: crimson;
+}
+
+.container .content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.container .content .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #333;
+  color: #fff;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+.container .content .btn:hover {
+  background: crimson;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background: #eee;
+}
+
+.form-container form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.form-container form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container form select option {
+  background: #fff;
+}
+
+.form-container form .form-btn {
+  background: #fbd0d9;
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+  background: crimson;
+  color: #fff;
+}
+
+.form-container form p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form-container form p a {
+  color: crimson;
+}
+
+.form-container form .error-msg {
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
